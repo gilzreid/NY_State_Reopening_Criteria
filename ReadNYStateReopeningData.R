@@ -34,4 +34,6 @@ names(NYCData) = c('Region',
                    'Metrics Met'
                    )
 
+write.csv(NYCData, "NYCcriteriastatus.csv")
+
 
